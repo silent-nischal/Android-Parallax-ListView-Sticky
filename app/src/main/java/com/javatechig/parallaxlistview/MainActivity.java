@@ -13,8 +13,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 1. Add an invisible header of same height as your hero height.
- * 2. Reposition the sticky view based on the
  * <p/>
  * Calculate the position of the sticky header view according to the
  * position of the first item in the ListView. When the first item is already
@@ -45,7 +43,7 @@ public class MainActivity extends ActionBarActivity {
         /* Inflate list header layout */
         LayoutInflater inflater = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View listHeader = inflater.inflate(R.layout.list_header, null);
-        stickyViewSpacer = listHeader.findViewById(R.id.placeholder);
+        stickyViewSpacer = listHeader.findViewById(R.id.stickyViewPlaceholder);
 
         /* Add list view header */
         listView.addHeaderView(listHeader);

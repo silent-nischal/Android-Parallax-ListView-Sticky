@@ -5,12 +5,11 @@
     android:orientation="vertical">
 
     <Space
-        android:id="@+id/topTransparent"
         android:layout_width="match_parent"
         android:layout_height="250dp" />
 
     <Space
-        android:id="@+id/placeholder"
+        android:id="@+id/stickyViewPlaceholder"
         android:layout_width="match_parent"
         android:layout_height="50dp" />
 
