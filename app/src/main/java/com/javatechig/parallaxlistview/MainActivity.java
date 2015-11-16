@@ -72,6 +72,11 @@ public class MainActivity extends ActionBarActivity {
                     /* Set the image to scroll half of the amount that of ListView */
                     heroImageView.setY(topY * 0.5f);
                 }
+                //Fixes issues related to fast scrolling of listview
+                else
+                {
+                stickyView.setY(0);
+                }
             }
         });
 
